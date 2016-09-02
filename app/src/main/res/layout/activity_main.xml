@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="应用1"/>
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送数据给SecondActivity"
+        />
+
+    <Button
+        android:id="@+id/btn_Messenager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送数据给MessengerService"
+        />
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="aidl:"/>
+
+    <Button
+        android:id="@+id/btn_aidl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用aidl调用服务的方法"
+        />
+
+    <TextView
+        android:id="@+id/tv_aidl"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="结果"/>
+
+</LinearLayout>
